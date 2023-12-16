@@ -15,6 +15,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TabFormComponent } from './tab-form/tab-form.component';
+import { SteeperFormComponent } from './steeper-form/steeper-form.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,8 @@ import {MatCardModule} from '@angular/material/card';
     HomeComponent,
     DashboardComponent,
     SidenavComponent,
+    TabFormComponent,
+    SteeperFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,8 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatDividerModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
