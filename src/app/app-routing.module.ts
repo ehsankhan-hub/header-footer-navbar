@@ -20,6 +20,7 @@ const routes: Routes = [
         path: '',
         component: HomeComponent,
       },
+      { path: 'dashboard', component: DashboardComponent },
     ],
   },
   {
