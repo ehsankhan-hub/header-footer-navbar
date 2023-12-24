@@ -18,6 +18,11 @@ import {MatCardModule} from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TabFormComponent } from './tab-form/tab-form.component';
 import { SteeperFormComponent } from './steeper-form/steeper-form.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
+import { LandingLayoutComponent } from './layouts/landing-layout/landing-layout.component';
+import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +33,11 @@ import { SteeperFormComponent } from './steeper-form/steeper-form.component';
     SidenavComponent,
     TabFormComponent,
     SteeperFormComponent,
+    RegisterComponent,
+    LoginLayoutComponent,
+    LandingLayoutComponent,
+    LoginComponent
+   
   ],
   imports: [
     BrowserModule,
